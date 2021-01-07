@@ -60,5 +60,9 @@ public class TestBase {
 		driver.manage().deleteAllCookies();
 		
 	}
+	public static void Close()
+	{
+		driver.quit();
+	}
 
 }

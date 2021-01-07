@@ -175,6 +175,7 @@ public class HotelBookingStepDef extends TestBase {
 	public void successmessage_is_displayed() throws Throwable {
 		String msgSuccess = bookingForm.MsgSuccess();
 	    Assert.assertEquals("Booking Completed!",msgSuccess);
+	    TestBase.Close();
 	}
 
 	
